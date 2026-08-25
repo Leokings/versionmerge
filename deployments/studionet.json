@@ -1,0 +1,68 @@
+{
+  "batch": "B",
+  "contract_address": "0xe30747bFEc45E515bE1bB4D95E5997646e347629",
+  "contract_source": {
+    "deployed_source_sha256": "cc4aabfbdda9601b6d7cda7cf8e4e2d236818d6c04ec7c58d793f01a34ad4f3c",
+    "path": "contracts/version_merge.py",
+    "runner": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+    "source_exact_for_deployment": true,
+    "source_sha256": "cc4aabfbdda9601b6d7cda7cf8e4e2d236818d6c04ec7c58d793f01a34ad4f3c"
+  },
+  "deployment_transaction_hash": "0x6784223fba0e9fbef81bd0e2eacabbcdf50da9676adedd6fef3e3136b6a0d51e",
+  "explorer": {
+    "contract": "https://explorer-studio.genlayer.com/address/0xe30747bFEc45E515bE1bB4D95E5997646e347629",
+    "deployment_transaction": "https://explorer-studio.genlayer.com/tx/0x6784223fba0e9fbef81bd0e2eacabbcdf50da9676adedd6fef3e3136b6a0d51e",
+    "intelligent_transaction": "https://explorer-studio.genlayer.com/tx/0x298e9b2dc1b8dc9fd23e018faf8e86d6ad5b079f847fe73b6458058366e972e7"
+  },
+  "intelligent_transaction_hash": "0x298e9b2dc1b8dc9fd23e018faf8e86d6ad5b079f847fe73b6458058366e972e7",
+  "network": {
+    "chain_id": 61999,
+    "name": "studionet",
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "repository": "versionmerge",
+  "schema": "genlayer-intelligent-contract-deployment/v2",
+  "setup_transaction_hashes": [
+    "0x9201b42f4ef287a029b4cce3ce69c7509ae82ba26a9ddd0c99396bf1f3ffbff4"
+  ],
+  "source": {
+    "deployed_source_sha256": "cc4aabfbdda9601b6d7cda7cf8e4e2d236818d6c04ec7c58d793f01a34ad4f3c",
+    "schema_methods_verified": [
+      "analyze_merge",
+      "conflict_indexes",
+      "merged_sections"
+    ],
+    "source_sha256": "cc4aabfbdda9601b6d7cda7cf8e4e2d236818d6c04ec7c58d793f01a34ad4f3c"
+  },
+  "tooling": {
+    "genlayer_test": "0.29.2",
+    "genvm_linter": "0.11.0",
+    "pyright": "1.1.411",
+    "pytest": "9.1.1",
+    "studionet_poll_interval_ms": 6000
+  },
+  "verification": {
+    "deployed_source_exact": true,
+    "execution_success": true,
+    "latest_final_readback": true,
+    "observed": {
+      "conflicts": [],
+      "relations": [
+        1,
+        2
+      ],
+      "state": "AUTO_MERGED"
+    },
+    "schema_read": true,
+    "status": "FINALIZED"
+  },
+  "verified_at": "2026-08-25T22:19:42.910165Z",
+  "wallet_addresses": [
+    "0xee75390D7d6d16E4f9D87b61736337e93830F13e",
+    "0x83828EB56F15d3Dfb00638762fEE8C3e121Fc02e",
+    "0xab9eA575afd4A6400ba702d9fbe7D1aDcDdF74bc",
+    "0xF40FF68127d8Ff46b893f0B375959A5DdeB78E92",
+    "0xA89F329a892cCF997A48C07fDEc27B62A99E78Ed"
+  ],
+  "wallet_policy": "repository-specific disposable bundle outside workspace; no cross-repository reuse"
+}
