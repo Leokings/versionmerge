@@ -1,13 +1,13 @@
-20. VersionMerge
+VersionMerge
 
 Contribution Date
-08/25/2026
+09/27/2026
 
 Title
-VersionMerge - Three-way semantic section merge
+VersionMerge - Author-attested semantic merging
 
 Notes / Description
-Built VersionMerge, a reusable GenLayer intelligent contract for three-way semantic section merge. Consensus classifies each base-left-right section relation; deterministic auto-merge handles non-conflicts while bilateral approval gates explicit conflict choices. One deployment supports multiple independently keyed records and callers. Inputs are public, caller-supplied snapshots; the contract does not automatically fetch or authenticate sources and moves no funds. GenVM lint, strict type checking, 4 direct tests and one five-validator GLSim flow passed. StudioNet verified successful finalized intelligent execution, final-state readback and matching deployed source.
+Built VersionMerge, a reusable GenLayer Intelligent Contract for author-attested three-way section merging. The owner records a common base and two distinct author wallets; each author submits their own immutable version. Validators classify aligned section relationships, deterministic code performs non-conflicting merges and records explicit conflict choices, and both authors must approve every final result before it is sealed. GenVM lint and strict type checking pass; 14 direct security tests and a five-validator integration flow pass. A fresh StudioNet run proved separate author submissions, relations [1,2], bilateral approvals, SEALED state, and exact deployed-source equality.
 
 Evidence 1 Type
 GitHub Repository
@@ -25,16 +25,16 @@ Evidence 3 Type
 GenLayer Studio Contract
 
 Evidence 3 URL
-https://studio.genlayer.com/?import-contract=0xe30747bFEc45E515bE1bB4D95E5997646e347629
+https://studio.genlayer.com/?import-contract=0x42b21323d7c0e3ecF382f8B7ca7dB10fbcff06c0
 
 Evidence 4 Type
 GenLayer Explorer Contract
 
 Evidence 4 URL
-https://explorer-studio.genlayer.com/address/0xe30747bFEc45E515bE1bB4D95E5997646e347629
+https://explorer-studio.genlayer.com/address/0x42b21323d7c0e3ecF382f8B7ca7dB10fbcff06c0
 
 Evidence 5 Type
 Other
 
 Evidence 5 URL
-https://explorer-studio.genlayer.com/tx/0x298e9b2dc1b8dc9fd23e018faf8e86d6ad5b079f847fe73b6458058366e972e7
+https://explorer-studio.genlayer.com/tx/0x1b33865dbeab31c2685ec5074116a61c66919f704b87f609d21c0b95a8ad7c9d

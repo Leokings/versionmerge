@@ -1,22 +1,16 @@
 # Submission review checklist
 
-- [x] One production Intelligent Contract source
-- [x] Concrete GenVM runner hash pinned
-- [x] All development dependencies exactly pinned
-- [x] Bounded inputs and deterministic loops
-- [x] Untrusted-input prompt boundary
-- [x] Exact JSON output normalization
-- [x] Custom validator for the nondeterministic operation
-- [x] Direct negative-path and invariant tests
-- [x] Exactly five-validator integration test
-- [x] Finalized StudioNet intelligent write
-- [x] Latest-final persisted readback
-- [x] Exact deployed-source SHA-256 verification
-- [x] Deployed schema verification
-- [x] Repository-specific external wallets
+- [x] Production Intelligent Contract source with pinned runner
+- [x] Bounded inputs, model output, loops, and storage growth
+- [x] Closed JSON normalization and prompt-injection boundaries
+- [x] Distinct owner and two author roles
+- [x] Each author submits an immutable version from their wallet
+- [x] Bilateral approval gates every sealed result
+- [x] 14 direct negative-path and invariant tests
+- [x] Five-validator integration test
+- [x] Finalized three-wallet StudioNet flow
+- [x] Latest-final `SEALED` readback
+- [x] Exact deployed-source and schema verification
 - [x] No private key, mnemonic, or populated environment file
-- [x] Workspace-wide originality and internal pairwise audit
-- [x] Reusable mechanism and off-chain boundary documented
-- [x] Prepared for private publication to Leokings/versionmerge
-- [ ] Ensure reviewers have read access to private GitHub evidence
-- [ ] Submit the contribution through the portal
+- [x] Public GitHub repository prepared for reviewer access
+- [ ] Submit this contribution through the portal

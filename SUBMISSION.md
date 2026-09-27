@@ -2,32 +2,24 @@ Project name: VersionMerge
 
 Category: Intelligent Contracts
 
-Batch: B
+One-line description: Author-attested three-way semantic merging with bilateral final approval.
 
-One-line description: Three-way semantic section merge.
+What it does: A merge owner records the base and two author wallets. Each author submits their own immutable version. GenLayer validators classify aligned section relationships, deterministic code builds the merge, and both authors must approve before sealing.
 
-What it does: Consensus classifies each base-left-right section relation; deterministic auto-merge handles non-conflicts while bilateral approval gates explicit conflict choices.
+Why GenLayer: Semantic equivalence and conflict classification need validator intelligence; provenance, exact-text checks, authorization, conflict choices, and approval state are enforced deterministically on-chain.
 
-Why GenLayer: GenLayer consensus performs the bounded semantic step, then deterministic contract code executes and stores the mechanism-specific result.
+Repository: https://github.com/Leokings/versionmerge
 
-Reusable: Yes. One deployment supports many independently keyed records and callers; the live fixture is only an example.
+Contract source: `contracts/version_merge.py`
 
-Repository: https://github.com/Leokings/versionmerge (private; reviewers require read access).
+Source SHA-256: `3617a3b07bf9083bba897923720576bfb4200c016d953b4f76f6713e4c5d281c`
 
-Contract source: contracts/version_merge.py
+StudioNet contract: https://explorer-studio.genlayer.com/address/0x42b21323d7c0e3ecF382f8B7ca7dB10fbcff06c0
 
-Source SHA-256: cc4aabfbdda9601b6d7cda7cf8e4e2d236818d6c04ec7c58d793f01a34ad4f3c
+Deployment transaction: https://explorer-studio.genlayer.com/tx/0x005973c7f165fffc1e0eefdf2abb22c29139be62deaf2a5dc78b3af771838795
 
-StudioNet contract: https://explorer-studio.genlayer.com/address/0xe30747bFEc45E515bE1bB4D95E5997646e347629
+Intelligent transaction: https://explorer-studio.genlayer.com/tx/0x1b33865dbeab31c2685ec5074116a61c66919f704b87f609d21c0b95a8ad7c9d
 
-Deployment transaction: https://explorer-studio.genlayer.com/tx/0x6784223fba0e9fbef81bd0e2eacabbcdf50da9676adedd6fef3e3136b6a0d51e
+Verification: lint PASS; strict typecheck PASS; 14 direct tests PASS; five-validator integration PASS; complete finalized three-wallet StudioNet flow PASS; latest-final sealed readback PASS; deployed-source and schema equality PASS.
 
-Intelligent transaction: https://explorer-studio.genlayer.com/tx/0x298e9b2dc1b8dc9fd23e018faf8e86d6ad5b079f847fe73b6458058366e972e7
-
-Verification: GenVM lint PASS; strict typecheck PASS; 4 direct tests PASS; five-validator GLSim PASS; finalized StudioNet intelligent write and latest-final readback PASS; exact deployed-source and schema verification PASS.
-
-Originality: Compared with 161 workspace contract sources. Nearest pre-existing structural score is 0.172149; mechanism and source hash are distinct.
-
-Data boundary: Caller-supplied public data only. No external source fetching, funds, identity attestation, legal effect, or private-data guarantee.
-
-Plain-text portal fields: SUBMISSION.txt. Notes / Description is within the 1,000-character form limit.
+Data boundary: Public caller-supplied text only. Wallet control is not proof of identity, copyright ownership, or legal authority.

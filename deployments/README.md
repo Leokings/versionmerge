@@ -1,8 +1,5 @@
 # StudioNet deployment evidence
 
-`studionet.json` binds `contracts/version_merge.py` at SHA-256
-`cc4aabfbdda9601b6d7cda7cf8e4e2d236818d6c04ec7c58d793f01a34ad4f3c` to a finalized StudioNet deployment, a real intelligent write,
-latest-final state, exact deployed-source bytes, the generated schema, and five
-unique public test-role addresses. It contains no private key.
+`studionet.json` binds `contracts/version_merge.py` at SHA-256 `3617a3b07bf9083bba897923720576bfb4200c016d953b4f76f6713e4c5d281c` to a finalized StudioNet deployment and complete three-wallet flow. It records both author submissions, validator analysis, both approvals, latest-final sealed state, required schema methods, quorum checks, and byte-for-byte deployed-source equality. It contains public addresses and transaction hashes only—no wallet secret.
 
-Contract explorer: https://explorer-studio.genlayer.com/address/0xe30747bFEc45E515bE1bB4D95E5997646e347629
+Contract explorer: https://explorer-studio.genlayer.com/address/0x42b21323d7c0e3ecF382f8B7ca7dB10fbcff06c0
